@@ -1,0 +1,61 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[4].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[4].oneOf[7].use[3]!./src/components/layout/Layout.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Layout_main__gSLe1 {
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[4].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[4].oneOf[7].use[3]!./src/components/layout/MainNavigation.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.MainNavigation_header__a__7x {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #77002e;
+  padding: 0 10%;
+}
+
+.MainNavigation_logo__okZrJ {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.MainNavigation_header__a__7x ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.MainNavigation_header__a__7x li {
+  margin-left: 3rem;
+}
+
+.MainNavigation_header__a__7x a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fcb8d2;
+}
+
+.MainNavigation_header__a__7x a:hover,
+.MainNavigation_header__a__7x a:active,
+.MainNavigation_header__a__7x a.MainNavigation_active__qhl_v {
+  color: white;
+}
+
+.MainNavigation_badge__Xf61p {
+  background-color: #cc2062;
+  color: white;
+  border-radius: 12px;
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+  text-align: center;
+}
+
