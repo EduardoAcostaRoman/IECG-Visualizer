@@ -39,6 +39,14 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -139,16 +147,8 @@
       ],
       "async": false
     },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\components\\layout\\Layout.module.css": {
-      "id": "(app-client)/./src/components/layout/Layout.module.css",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\components\\layout\\MainNavigation.module.css": {
-      "id": "(app-client)/./src/components/layout/MainNavigation.module.css",
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page.js": {
+      "id": "(app-client)/./src/app/page.js",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

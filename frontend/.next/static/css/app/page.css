@@ -16,14 +16,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #77002e;
+  background-color: #7692ff;
   padding: 0 10%;
 }
 
 .MainNavigation_logo__okZrJ {
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
+  width: 4.5rem;
 }
 
 .MainNavigation_header__a__7x ul {

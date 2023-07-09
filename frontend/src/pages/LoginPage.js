@@ -1,7 +1,12 @@
 import Layout from '@/components/layout/Layout';
+import Login from '@/components/layout/login';
 
 function LoginPage() {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <Login />
+    </Layout>
+  );
 }
 
 export default LoginPage;

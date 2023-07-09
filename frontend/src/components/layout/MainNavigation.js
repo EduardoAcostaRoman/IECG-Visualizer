@@ -3,7 +3,9 @@ import classes from './MainNavigation.module.css';
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Here goes the logo</div>
+      <div>
+        <img className={classes.logo} src='/images/iecg.jpg' alt='logo' />
+      </div>
       <nav>
         <ul>
           <li>

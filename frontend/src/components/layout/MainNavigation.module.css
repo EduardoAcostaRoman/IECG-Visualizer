@@ -4,14 +4,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #77002e;
+  background-color: #7692ff;
   padding: 0 10%;
 }
 
 .logo {
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
+  width: 4.5rem;
 }
 
 .header ul {
