@@ -3,10 +3,12 @@ import MainNavigation from '@/components/layout/MainNavigation';
 
 function MainPage() {
   return (
-    <Layout>
+    <div>
       <MainNavigation />
-      <h1>IECG Visualizer</h1>
-    </Layout>
+      <Layout>
+        <h1>IECG Visualizer</h1>
+      </Layout>
+    </div>
   );
 }
 

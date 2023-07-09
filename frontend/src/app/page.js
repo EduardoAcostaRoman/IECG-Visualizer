@@ -7,5 +7,5 @@ import { useState } from 'react';
 export default function Home() {
   const [userLoggedIn, setUserLoggedIn] = useState(false);
 
-  return <div>{userLoggedIn ? <LoginPage /> : <MainPage />}</div>;
+  return <div>{userLoggedIn ? <MainPage /> : <LoginPage />}</div>;
 }
