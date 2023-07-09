@@ -1,11 +1,11 @@
-import Layout from '@/components/layout/Layout';
+'use client';
+
+import MainPage from '@/pages/MainPage';
+import LoginPage from '@/pages/LoginPage';
+import { useState } from 'react';
 
 export default function Home() {
-  return (
-    <Layout>
-      <main>
-        <h1>IECG Visualizer</h1>
-      </main>
-    </Layout>
-  );
+  const [userLoggedIn, setUserLoggedIn] = useState(false);
+
+  return {};
 }
