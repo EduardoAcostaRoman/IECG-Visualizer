@@ -10,7 +10,7 @@ const PORT = 3001;
 
 // mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/soccerDB', {
+mongoose.connect('mongodb://localhost/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
