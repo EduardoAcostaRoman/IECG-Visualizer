@@ -1,8 +1,8 @@
-import mongoose, { Schema } from 'mongoose';
+import mongoose from 'mongoose';
 
-const schema = mongoose.Schema;
+const Schema = mongoose.Schema;
 
-export const PlayerSchema = new Schema({
+export const UserSchema = new Schema({
   firstName: {
     type: String,
     required: true,

@@ -1,16 +1,32 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
-import routes from './routes/soccerRoutes';
+import routes from './routes/userRoutes';
 import cors from 'cors';
 
 // node express local server
 const app = express();
-const PORT = 3001;
+const PORT = 4000;
 
 // mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/', {
+mongoose.connect('mongodb://localhost/iecgDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
+
+// body-parser setup
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+// CORS setup
+app.use(cors());
+
+// establishes the routes
+routes(app);
+
+app.get('/', (req, res) => res.send(`Our app is running on the ${PORT} port`));
+
+app.listen(PORT, () =>
+  console.log(`Your app server is running on the ${PORT} port`)
+);
