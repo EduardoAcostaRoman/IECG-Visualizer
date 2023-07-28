@@ -5,31 +5,32 @@ function Login() {
     <div className={classes.frame}>
       <h1 className={classes.title}>Inicio de sesión</h1>
       <form className={classes.form}>
-        <div className='input'>
-          <label for='name'>Nombre: </label>
-          <input id='name' type='text' placeholder='Tu nombre aquí...' />
+        <div class='row'>
+          <form class='col s12'>
+            <div class='row'>
+              <div class='input-field col s6'>
+                <input id='first_name' type='text' class='validate' />
+                <label for='first_name'>First Name</label>
+              </div>
+              <div class='input-field col s6'>
+                <input id='last_name' type='text' class='validate' />
+                <label for='last_name'>Last Name</label>
+              </div>
+            </div>
+            {/* <div class='row'>
+              <div class='input-field col s12'>
+                <input id='password' type='password' class='validate' />
+                <label for='password'>Password</label>
+              </div>
+            </div> */}
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input id='email' type='email' class='validate' />
+                <label for='email'>Email</label>
+              </div>
+            </div>
+          </form>
         </div>
-        <div className='input'>
-          <label for='lastNameP'>Apellido paterno: </label>
-          <input
-            id='lastNameP'
-            type='text'
-            placeholder='Tu apellido paterno...'
-          />
-        </div>
-        <div className='input'>
-          <label for='lastNameM'>Apellido materno: </label>
-          <input
-            id='lastNameM'
-            type='text'
-            placeholder='Tu apellido materno...'
-          />
-        </div>
-        <div className='input'>
-          <label for='mail'>Correo electrónico: </label>
-          <input id='mail' type='text' placeholder='Tu correo electrónico...' />
-        </div>
-
         <button>Log in</button>
       </form>
     </div>

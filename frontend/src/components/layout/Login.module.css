@@ -8,26 +8,6 @@
   width: 70%;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: darkgray;
-  padding: 1rem;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-.form label {
-  font-weight: bold;
-  margin-right: 0.2rem;
-}
-
-.form input {
-  padding: 0.2rem;
-  margin-bottom: 0.3rem;
-}
-
 .form button {
   margin-top: 0.5rem;
   background-color: aliceblue;

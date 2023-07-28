@@ -61,26 +61,6 @@
   width: 70%;
 }
 
-.Login_form__KwJ0g {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: darkgray;
-  padding: 1rem;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-.Login_form__KwJ0g label {
-  font-weight: bold;
-  margin-right: 0.2rem;
-}
-
-.Login_form__KwJ0g input {
-  padding: 0.2rem;
-  margin-bottom: 0.3rem;
-}
-
 .Login_form__KwJ0g button {
   margin-top: 0.5rem;
   background-color: aliceblue;
