@@ -48,28 +48,3 @@
   color: white;
 }
 
-/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[4].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[4].oneOf[7].use[3]!./src/components/layout/Login.module.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************/
-.Login_frame__W2A6t {
-  background-color: silver;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  margin: 0 auto;
-  width: 70%;
-}
-
-.Login_form__KwJ0g button {
-  margin-top: 0.5rem;
-  background-color: aliceblue;
-  border-radius: 6px;
-  box-shadow: 2px rgba(0, 0, 0, 0.2);
-}
-
-.Login_form__KwJ0g button:hover {
-  background-color: rgb(171, 210, 255);
-  font-weight: bold;
-}
-

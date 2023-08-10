@@ -1,3 +1,16 @@
+/* .input-field input[type='text']:focus + label {
+  color: #000;
+}
+
+.input-field input[type='text']:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}  */
+
+.title {
+  margin-bottom: 10rem !important;
+}
+
 .frame {
   background-color: silver;
   padding: 1rem;

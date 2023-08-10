@@ -1,4 +1,6 @@
 import './globals.css';
+import 'materialize-css/dist/css/materialize.min.css';
+import 'material-icons/iconfont/material-icons.css';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });

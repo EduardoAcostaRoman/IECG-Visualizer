@@ -147,6 +147,22 @@
       ],
       "async": false
     },
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\node_modules\\materialize-css\\dist\\css\\materialize.min.css": {
+      "id": "(app-client)/./node_modules/materialize-css/dist/css/materialize.min.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\node_modules\\material-icons\\iconfont\\material-icons.css": {
+      "id": "(app-client)/./node_modules/material-icons/iconfont/material-icons.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\globals.css": {
       "id": "(app-client)/./src/app/globals.css",
       "name": "*",
