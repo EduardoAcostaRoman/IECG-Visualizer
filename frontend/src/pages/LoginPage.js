@@ -1,5 +1,5 @@
 import Layout from '@/components/layout/Layout';
-import Login from '@/components/layout/Login';
+import Login from '@/pages/Login';
 
 function LoginPage() {
   return (
