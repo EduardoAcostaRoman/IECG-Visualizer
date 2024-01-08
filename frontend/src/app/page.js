@@ -7,5 +7,9 @@ import { useEffect, useState } from 'react';
 export default function Home() {
   const [userLoggedIn, setUserLoggedIn] = useState(false);
 
-  return <div>{userLoggedIn ? <MainPage /> : <LoginPage />}</div>;
+  return (
+    <div>
+      <div>{userLoggedIn ? <MainPage /> : <LoginPage />}</div>
+    </div>
+  );
 }

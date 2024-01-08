@@ -10,18 +10,7 @@ function Registration() {
               Nombre
             </label>
           </div>
-          <div className='input-field col s6'>
-            <input id='last_name' type='text' className='validate' />
-            <label className='active' htmlFor='last_name'>
-              Apellido Paterno
-            </label>
-          </div>
-          <div className='input-field col s6'>
-            <input id='last_name2' type='text' className='validate' />
-            <label className='active' htmlFor='last_name2'>
-              Apellido Materno
-            </label>
-          </div>
+
           <div className='input-field col s12'>
             <input id='email' type='email' className='validate' />
             <label className='active' htmlFor='email'>
@@ -29,8 +18,8 @@ function Registration() {
             </label>
           </div>
         </div>
-        <div class='row'>
-          <div class='input-field col s12'>
+        <div className='row'>
+          <div className='input-field col s12'>
             <input id='password' type='password' class='validate' />
             <label htmlFor='password'>Contraseña</label>
           </div>
