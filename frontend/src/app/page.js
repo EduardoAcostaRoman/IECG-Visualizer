@@ -1,7 +1,7 @@
 'use client';
 
 import MainPage from '@/pages/MainPage';
-import LoginPage from '@/pages/LoginPage';
+import Login from '@/pages/Login';
 import { useEffect, useState } from 'react';
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <div>
-      <div>{userLoggedIn ? <MainPage /> : <LoginPage />}</div>
+      <div>{userLoggedIn ? <MainPage /> : <Login />}</div>
     </div>
   );
 }

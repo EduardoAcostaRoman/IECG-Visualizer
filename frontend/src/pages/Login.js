@@ -1,4 +1,3 @@
-import classes from './Login.module.css'; //--> to delete due to materialize styles
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
@@ -66,7 +65,7 @@ function Login() {
                   className='btn waves-effect waves-light'
                   type='submit'
                   name='action'
-                  onClick={() => router.push('/LoginPage')}
+                  onClick={() => router.push('/Registration')}
                 >
                   Iniciar sesión
                   <i className='material-icons right'>send</i>
