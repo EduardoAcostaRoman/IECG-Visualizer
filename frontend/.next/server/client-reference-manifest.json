@@ -40,14 +40,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/page.js": {
-      "*": {
-        "id": "(sc_client)/./src/app/page.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/image-component.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
@@ -59,6 +51,14 @@
     "(app-client)/./public/images/154117.png": {
       "*": {
         "id": "(sc_client)/./public/images/154117.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -163,14 +163,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page.js": {
-      "id": "(app-client)/./src/app/page.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\node_modules\\next\\dist\\client\\image-component.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
@@ -227,6 +219,14 @@
       ],
       "async": false
     },
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page.js": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\Registration\\page.js": {
       "id": "(app-client)/./src/app/Registration/page.js",
       "name": "*",
@@ -245,10 +245,10 @@
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page": [],
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\layout": [
       "static/css/app/layout.css"
     ],
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page": [],
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\Registration\\page": [],
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\Login\\page": []
   }

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import Image from 'next/image';
 
 function Login() {
@@ -23,15 +24,16 @@ function Login() {
                   <input id='password' type='password' className='validate' />
                   <label htmlFor='password'>Contraseña</label>
                 </div>
-                <button
-                  className='btn waves-effect waves-light'
-                  type='submit'
-                  name='action'
-                  onClick={() => router.push('/Registration')}
-                >
-                  Iniciar sesión
-                  <i className='material-icons right'>send</i>
-                </button>
+                <Link href='/Registration'>
+                  <button
+                    className='btn waves-effect waves-light'
+                    type='submit'
+                    name='action'
+                  >
+                    Iniciar sesión
+                    <i className='material-icons right'>send</i>
+                  </button>
+                </Link>
               </form>
             </div>
           </div>
