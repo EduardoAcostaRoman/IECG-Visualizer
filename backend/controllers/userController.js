@@ -6,35 +6,39 @@ const User = mongoose.model('User', UserSchema);
 export const addNewUser = (req, res) => {
   let newUser = new User(req.body);
 
-  newUser.save((err, User) => {
-    if (err) {
+  newUser
+    .save()
+    .then((user) => {
+      res.json(user);
+    })
+    .catch((err) => {
       res.send(err);
-    }
-    res.json(User);
-  });
+    });
 };
 
 export const getUsers = (req, res) => {
-  User.find({}, (err, User) => {
-    if (err) {
+  User.find()
+    .then((users) => {
+      res.json(users);
+    })
+    .catch((err) => {
       res.send(err);
-    }
-    res.json(User);
-  });
+    });
 };
 
 export const getUserByID = (req, res) => {
-  User.findById(req.params.UserID, (err, User) => {
-    if (err) {
+  User.findById(req.params.userID)
+    .then((user) => {
+      res.json(user);
+    })
+    .catch((err) => {
       res.send(err);
-    }
-    res.json(User);
-  });
+    });
 };
 
 export const updateUser = (req, res) => {
   User.findOneAndUpdate(
-    { _id: req.params.UserID },
+    { _id: req.params.userID },
     req.body,
     { new: true },
     (err, User) => {

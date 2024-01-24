@@ -1,34 +1,89 @@
 'use client';
 
+import { useState, useRef, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
+import axios from 'axios';
+
 function Registration() {
+  const router = useRouter();
+
+  const nameRef = useRef();
+  const emailRef = useRef();
+  const passwordRef = useRef();
+
+  const submitUser = (e) => {
+    e.preventDefault();
+
+    const enteredName = nameRef.current.value;
+    const enteredEmail = emailRef.current.value;
+    const enteredPassword = passwordRef.current.value;
+
+    axios
+      .post('http://localhost:4000/users', {
+        name: enteredName,
+        email: enteredEmail,
+        password: enteredPassword,
+      })
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((error) => console.log(error));
+  };
+
   return (
-    <div className='row'>
-      <form className='col s12'>
-        <h1>Registro</h1>
-        <div className='row'>
-          <div className='input-field col s6'>
-            <input id='first_name' type='text' className='validate' />
-            <label className='active' htmlFor='first_name'>
-              Nombre
-            </label>
-          </div>
-
-          <div className='input-field col s12'>
-            <input id='email' type='email' className='validate' />
-            <label className='active' htmlFor='email'>
-              Correo Electrónico
-            </label>
+    <div className='container'>
+      <div className='row'>
+        <div className='col s12 m6 l3 offset-m3'>
+          <div className='card'>
+            <div className='card-content'>
+              <span className='card-title'>Registro</span>
+              <form>
+                <div className='input-field'>
+                  <input
+                    id='username'
+                    type='text'
+                    className='validate'
+                    required
+                    ref={nameRef}
+                  />
+                  <label htmlFor='username'>Nombre</label>
+                </div>
+                <div className='input-field'>
+                  <input
+                    id='email'
+                    type='email'
+                    className='validate'
+                    required
+                    ref={emailRef}
+                  />
+                  <label htmlFor='email'>Correo Electrónico</label>
+                </div>
+                <div className='input-field'>
+                  <input
+                    id='password'
+                    type='password'
+                    className='validate'
+                    required
+                    ref={passwordRef}
+                  />
+                  <label htmlFor='password'>Contraseña</label>
+                </div>
+                <Link href='/Registration'>
+                  <button
+                    className='btn waves-effect waves-light'
+                    type='submit'
+                    name='action'
+                  >
+                    Continuar
+                    <i className='material-icons right'>send</i>
+                  </button>
+                </Link>
+              </form>
+            </div>
           </div>
         </div>
-        <div className='row'>
-          <div className='input-field col s12'>
-            <input id='password' type='password' className='validate' />
-            <label htmlFor='password'>Contraseña</label>
-          </div>
-        </div>
-
-        <button>Log in</button>
-      </form>
+      </div>
     </div>
   );
 }

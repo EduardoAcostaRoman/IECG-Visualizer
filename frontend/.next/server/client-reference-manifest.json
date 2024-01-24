@@ -71,14 +71,6 @@
         "chunks": [],
         "async": false
       }
-    },
-    "(app-client)/./src/app/Login/page.js": {
-      "*": {
-        "id": "(sc_client)/./src/app/Login/page.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -234,22 +226,15 @@
         "app/Registration/page:static/chunks/app/Registration/page.js"
       ],
       "async": false
-    },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\Login\\page.js": {
-      "id": "(app-client)/./src/app/Login/page.js",
-      "name": "*",
-      "chunks": [
-        "app/Login/page:static/chunks/app/Login/page.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page": [],
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\Registration\\page": [],
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\Login\\page": []
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page": [
+      "static/css/app/page.css"
+    ],
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\Registration\\page": []
   }
 }
