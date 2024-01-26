@@ -27,6 +27,8 @@ function Registration() {
       })
       .then((response) => {
         console.log(response);
+        alert(`Bienvenido ${enteredName}, has sido registrado con éxito!`);
+        router.push('/Login');
       })
       .catch((error) => console.log(error));
   };
@@ -38,7 +40,7 @@ function Registration() {
           <div className='card'>
             <div className='card-content'>
               <span className='card-title'>Registro</span>
-              <form>
+              <form onSubmit={submitUser}>
                 <div className='input-field'>
                   <input
                     id='username'
@@ -69,16 +71,15 @@ function Registration() {
                   />
                   <label htmlFor='password'>Contraseña</label>
                 </div>
-                <Link href='/Registration'>
-                  <button
-                    className='btn waves-effect waves-light'
-                    type='submit'
-                    name='action'
-                  >
-                    Continuar
-                    <i className='material-icons right'>send</i>
-                  </button>
-                </Link>
+
+                <button
+                  className='btn waves-effect waves-light'
+                  type='submit'
+                  name='action'
+                >
+                  Continuar
+                  <i className='material-icons right'>send</i>
+                </button>
               </form>
             </div>
           </div>
