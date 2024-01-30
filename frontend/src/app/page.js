@@ -1,9 +1,9 @@
 'use client';
 
 import Login from '@/app/Login/page';
-import Registration from '@/app/Registration/page';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import MainPage from './MainPage/page';
 
 export default function Home() {
   const router = useRouter();

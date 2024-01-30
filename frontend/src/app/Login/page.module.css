@@ -1,8 +1,11 @@
-.noUppercase {
-  text-transform: unset !important;
+.underline {
   text-decoration: underline;
 }
 
 .upperMargin {
   margin-top: 2rem;
+}
+
+.lowerMargin {
+  margin-bottom: 2rem;
 }

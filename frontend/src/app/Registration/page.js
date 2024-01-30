@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import axios from 'axios';
@@ -40,7 +40,7 @@ function Registration() {
           <div className='card'>
             <div className='card-content'>
               <span className='card-title'>Registro</span>
-              <form onSubmit={submitUser}>
+              <form onSubmit={submitUser} className='center-align'>
                 <div className='input-field'>
                   <input
                     id='username'

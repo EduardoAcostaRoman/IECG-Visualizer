@@ -40,25 +40,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/page.js": {
+    "(app-client)/./src/app/layout.js": {
       "*": {
-        "id": "(sc_client)/./src/app/page.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image-component.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/154117.png": {
-      "*": {
-        "id": "(sc_client)/./public/images/154117.png",
+        "id": "(sc_client)/./src/app/layout.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -72,9 +56,25 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/Login/page.js": {
       "*": {
         "id": "(sc_client)/./src/app/Login/page.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/MainPage/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/MainPage/page.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -163,64 +163,8 @@
       ],
       "async": false
     },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page.js": {
-      "id": "(app-client)/./src/app/page.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\node_modules\\next\\dist\\client\\image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\node_modules\\next\\dist\\esm\\client\\image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\node_modules\\materialize-css\\dist\\css\\materialize.min.css": {
-      "id": "(app-client)/./node_modules/materialize-css/dist/css/materialize.min.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\node_modules\\material-icons\\iconfont\\material-icons.css": {
-      "id": "(app-client)/./node_modules/material-icons/iconfont/material-icons.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\public\\images\\154117.png": {
-      "id": "(app-client)/./public/images/154117.png",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\globals.css": {
-      "id": "(app-client)/./src/app/globals.css",
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\layout.js": {
+      "id": "(app-client)/./src/app/layout.js",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -235,6 +179,14 @@
       ],
       "async": false
     },
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page.js": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\Login\\page.js": {
       "id": "(app-client)/./src/app/Login/page.js",
       "name": "*",
@@ -242,18 +194,27 @@
         "app/Login/page:static/chunks/app/Login/page.js"
       ],
       "async": false
+    },
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\MainPage\\page.js": {
+      "id": "(app-client)/./src/app/MainPage/page.js",
+      "name": "*",
+      "chunks": [
+        "app/MainPage/page:static/chunks/app/MainPage/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page": [
-      "static/css/app/page.css"
-    ],
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\layout": [
       "static/css/app/layout.css"
     ],
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\Registration\\page": [],
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\page": [
+      "static/css/app/page.css"
+    ],
     "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\Login\\page": [
       "static/css/app/Login/page.css"
-    ]
+    ],
+    "C:\\Users\\lalo_\\Documents\\Developer Projects\\MERN STACK\\IECG-Visualizer\\frontend\\src\\app\\MainPage\\page": []
   }
 }
